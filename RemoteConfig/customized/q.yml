@@ -83,7 +83,8 @@ dns:
      - tls://dns.google:853
      - https://dns.rubyfish.cn/dns-query
      - https://cloudflare-dns.com/dns-query
-     #- https://dns.google/dns-query
+     - https://dns.nextdns.io/3d48ce
+     - https://dns.google/dns-query
   #fallback-filter:
      #geoip: true # 默认
      #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
