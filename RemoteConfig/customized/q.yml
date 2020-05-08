@@ -124,7 +124,13 @@ dns:
 ## Proxies module latency test settings
 #cfw-latency-timeout: 3000
 #cfw-latency-url: http://www.gstatic.com/generate_204
-#
+
+#自定义节点排序
+#default：按配置文件定义节点顺序
+#latency：按节点延迟升序排列
+#alphabet：按节点名称字母表排列
+cfw-proxies-order: alphabet
+
 ## 打断连接
 ## Identify strategy of breaking connections after switching to a new proxy/profile/mode
 ## Options for proxy: none, chain(proxy group in connection chains), all
