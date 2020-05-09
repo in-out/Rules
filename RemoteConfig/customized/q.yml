@@ -70,9 +70,9 @@ dns:
      #- localhost.ptlogin2.qq.com
   nameserver:    
      - 119.29.29.29
-     - 119.28.28.28
+     #- 119.28.28.28
      - 1.2.4.8
-     - tls://dns.rubyfish.cn:853
+     #- tls://dns.rubyfish.cn:853
      - https://dns.rubyfish.cn/dns-query
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
