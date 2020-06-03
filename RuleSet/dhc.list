@@ -1,5 +1,6 @@
 #Template
-DOMAIN-SUFFIX,dogedoge.com
+#DOMAIN-SUFFIX,dogedoge.com
+DOMAIN-SUFFIX,oschina.net
 
 DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,cordcloud
