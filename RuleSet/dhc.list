@@ -3,6 +3,7 @@
 DOMAIN-SUFFIX,oschina.net
 
 DOMAIN-KEYWORD,bilibili
+DOMAIN-KEYWORD,xunlei
 DOMAIN-KEYWORD,cordcloud
 DOMAIN-KEYWORD,eastgame
 DOMAIN-KEYWORD,github
@@ -85,7 +86,6 @@ DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
 DOMAIN-SUFFIX,weiyun.com
-DOMAIN-SUFFIX,xunlei.com
 DOMAIN-SUFFIX,yun.cn
 DOMAIN-SUFFIX,zdmimg.com
 DOMAIN-SUFFIX,zhulou.net
