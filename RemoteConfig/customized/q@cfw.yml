@@ -45,6 +45,7 @@ external-controller: '127.0.0.1:9090'
 # 实验性功能
 experimental:
   ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
+  interface-name: tap-cfw
   # interface-name: en0 # outbound interface name
 
 # 本地 SOCKS5 / HTTP(S) 服务认证
@@ -105,9 +106,7 @@ dns:
      #geoip: true # 默认
      #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
        #- 240.0.0.0/4
-  experimental:
-    interface-name: tap-cfw
-
+ 
 # 1. clash DNS 请求逻辑：
 #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
 #   (2) clash 将选取 nameserver 列表内，解析最快的结果。
