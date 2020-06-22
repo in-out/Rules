@@ -144,7 +144,7 @@ proxy-providers:
 
   DuckDuckGo-Sub: # 冲鸭机场订阅链接
     type: http
-    url: "https://duckduckgo.security/user/sub.php?token=DivineEngine"
+    url: "https://sub88.xyz/link/1eNGoTHbWPyUiVYh?sub=3"
     interval: 3600
     path: ./Proxy/ProxyList.yaml # 不同机场不同命名
     health-check:
