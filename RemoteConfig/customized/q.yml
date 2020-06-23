@@ -101,8 +101,8 @@ dns:
      #- https://dns.nextdns.io/3d48ce
      #- https://dns.google/dns-query
      - tls://dns.adguard.com:853
-  #fallback-filter:
-     #geoip: true # 默认
+  fallback-filter:
+     geoip: true # 默认
      #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
        #- 240.0.0.0/4
 
