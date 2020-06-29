@@ -85,6 +85,8 @@ dns:
      #- https://i.233py.com/dns-query # GeekDNS
      #- tls://jp.tiar.app:853
      #- tls://dns.rubyfish.cn:853
+     #-tls://public.dns.iij.jp
+     #-https://public.dns.iij.jp/dns-query
      #- https://dns.rubyfish.cn/dns-query
   fallback:
      - 8.8.8.8 # 谷歌DNS
