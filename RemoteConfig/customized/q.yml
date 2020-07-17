@@ -99,16 +99,17 @@ dns:
      - tls://1.1.1.1:853
      - tls://dns.google:853
      - tls://jp.tiar.app:85
+     #- tls://dns.adguard.com:853
+     #- tls://odvr.nic.cz
+     #- tls://public.dns.iij.jp
      #- https://dns.233py.com/dns-query
      #- https://dns.rubyfish.cn/dns-query
      #- https://cloudflare-dns.com/dns-query
      #- https://dns.nextdns.io/3d48ce
      #- https://dns.google/dns-query
      #- https://doh.pub/dns-query
-     #- tls://dns.adguard.com:853
-     #- tls://odvr.nic.cz
-     #- tls://public.dns.iij.jp
      #- https://odvr.nic.cz/doh
+     #- https://public.dns.iij.jp/dns-query
   #fallback-filter:
      #geoip: true # 默认
      #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
