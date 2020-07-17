@@ -102,6 +102,11 @@ dns:
      #- tls://dns.adguard.com:853
      #- tls://odvr.nic.cz
      #- tls://public.dns.iij.jp
+     #- https://doh.dns.sb/dns-query
+     #- https://doh.li/dns-query
+     #- https://dns.quad9.net/dns-query
+     #- https://doh.xfinity.com/dns-query
+     #- https://dns.alidns.com/dns-query
      #- https://dns.233py.com/dns-query
      #- https://dns.rubyfish.cn/dns-query
      #- https://cloudflare-dns.com/dns-query
