@@ -2,9 +2,15 @@
 #DOMAIN-SUFFIX,dogedoge.com
 DOMAIN-SUFFIX,oschina.net
 
+#airport
+DOMAIN-SUFFIX,sksla.pro
+DOMAIN-SUFFIX,i119.club
+DOMAIN-KEYWORD,cordcloud
+DOMAIN-KEYWORD,renzhe
+
+#domain
 DOMAIN-KEYWORD,6pan
 DOMAIN-KEYWORD,bilibili
-DOMAIN-KEYWORD,cordcloud
 DOMAIN-KEYWORD,eastgame
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,gitee
@@ -55,7 +61,6 @@ DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,hoopchina.com.cn
 DOMAIN-SUFFIX,hupu.com
 DOMAIN-SUFFIX,huawei.com
-DOMAIN-SUFFIX,i119.club
 DOMAIN-SUFFIX,ifeng.com
 DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,instagram.com
