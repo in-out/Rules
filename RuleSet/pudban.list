@@ -3,3 +3,8 @@
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,renzhe
 DOMAIN-KEYWORD,github
+# Instagram
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,akamaihd.net
