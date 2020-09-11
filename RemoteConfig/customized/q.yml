@@ -72,8 +72,7 @@ dns:
   nameserver:    
      - 119.29.29.29
      - 223.5.5.5 # 阿里DNS
-     - 180.76.76.76 # 百度DNS
-     #- 119.28.28.28
+     #- 208.67.222.222 #OpenDNS
      #- 1.2.4.8
      #- https://dns.alidns.com/dns-query
      #- https://doh.pub/dns-query
@@ -94,16 +93,17 @@ dns:
      #-tls://public.dns.iij.jp
      #-https://public.dns.iij.jp/dns-query
   fallback:
-     #- 8.8.8.8 # 谷歌DNS
+     - 8.8.8.8 # 谷歌DNS
      #- 9.9.9.9
-     #- 1.1.1.1 # Cloudflare DNS
+     - 1.1.1.1 # Cloudflare DNS
+     - 208.67.222.222 #OpenDNS
      #- tls://dns.rubyfish.cn:853
      #- tls://1.0.0.1:853
      #- tls://1.1.1.1:853
-     - tls://3d48ce.dns.nextdns.io
-     - tls://dns.google:853
+     #- tls://3d48ce.dns.nextdns.io
+     #- tls://dns.google:853
      #- tls://jp.tiar.app:853
-     - tls://dns.quad9.net:853
+     #- tls://dns.quad9.net:853
      #- tls://dns.adguard.com:853
      #- tls://odvr.nic.cz
      #- tls://public.dns.iij.jp
