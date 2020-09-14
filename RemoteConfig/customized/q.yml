@@ -70,12 +70,12 @@ dns:
      #- '*.lan'
      #- localhost.ptlogin2.qq.com
   nameserver:    
-     - 119.29.29.29
-     - 223.5.5.5 # 阿里DNS
+     #- 119.29.29.29
+     #- 223.5.5.5 # 阿里DNS
      #- 208.67.222.222 #OpenDNS
      #- 1.2.4.8
-     #- https://dns.alidns.com/dns-query
-     #- https://doh.pub/dns-query
+     - https://dns.alidns.com/dns-query
+     - https://doh.pub/dns-query
      #- https://dns.nextdns.io/3d48ce
      #- https://dns.rubyfish.cn/dns-query
      #- https://dns.adguard.com/dns-query
@@ -93,10 +93,10 @@ dns:
      #-tls://public.dns.iij.jp
      #-https://public.dns.iij.jp/dns-query
   fallback:
-     - 8.8.8.8 # 谷歌DNS
+     #- 8.8.8.8 # 谷歌DNS
      #- 9.9.9.9
-     - 1.1.1.1 # Cloudflare DNS
-     - 208.67.222.222 #OpenDNS
+     #- 1.1.1.1 # Cloudflare DNS
+     #- 208.67.222.222 #OpenDNS
      #- tls://dns.rubyfish.cn:853
      #- tls://1.0.0.1:853
      #- tls://1.1.1.1:853
@@ -114,9 +114,9 @@ dns:
      #- https://dns.alidns.com/dns-query
      #- https://dns.233py.com/dns-query
      #- https://dns.rubyfish.cn/dns-query
-     #- https://cloudflare-dns.com/dns-query
-     #- https://dns.nextdns.io/3d48ce
-     #- https://dns.google/dns-query
+     - https://cloudflare-dns.com/dns-query
+     - https://dns.nextdns.io/3d48ce
+     - https://dns.google/dns-query
      #- https://doh.pub/dns-query
      #- https://odvr.nic.cz/doh
      #- https://public.dns.iij.jp/dns-query
