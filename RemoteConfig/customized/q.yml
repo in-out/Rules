@@ -114,7 +114,7 @@ dns:
      #- https://dns.alidns.com/dns-query
      #- https://dns.233py.com/dns-query
      #- https://dns.rubyfish.cn/dns-query
-     - https://cloudflare-dns.com/dns-query
+     - https://dns.cloudflare.com/dns-query
      #- https://dns.nextdns.io/3d48ce
      - https://dns.google/dns-query
      #- https://doh.pub/dns-query
