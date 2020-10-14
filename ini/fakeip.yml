@@ -120,8 +120,8 @@ dns:
      #- https://doh.pub/dns-query
      #- https://odvr.nic.cz/doh
      #- https://public.dns.iij.jp/dns-query
-  #fallback-filter:
-     #geoip: true # 默认
+  fallback-filter:
+     geoip: true # 默认
      #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
        #- 240.0.0.0/4
 
