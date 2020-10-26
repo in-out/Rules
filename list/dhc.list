@@ -5,14 +5,13 @@ DOMAIN-SUFFIX,oschina.net
 #domain
 DOMAIN-KEYWORD,6pan
 DOMAIN-KEYWORD,35photo
-DOMAIN-SUFFIX,aixifan.com
-DOMAIN-SUFFIX,acfun.cn
 DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,dmzj
 DOMAIN-KEYWORD,eastgame
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,gitee
 DOMAIN-KEYWORD,baidu
+DOMAIN-KEYWORD,lanzou
 DOMAIN-KEYWORD,rrys
 DOMAIN-KEYWORD,office
 DOMAIN-KEYWORD,shiny
@@ -28,6 +27,8 @@ DOMAIN-SUFFIX,aicaijing.com.cn
 DOMAIN-SUFFIX,ajax.googleapis.com
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aixifan.com
+DOMAIN-SUFFIX,acfun.cn
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonaws.com.cn
 DOMAIN-SUFFIX,bdimg.com
