@@ -1,3 +1,5 @@
 #DOMAIN-KEYWORD,skype
 #DOMAIN-SUFFIX,dogedoge.com
 DOMAIN-KEYWORD,cocomanhua
+IP-CIDR,218.60.87.0/24,no-resolve
+IP-CIDR,176.31.225.0/24,no-resolve
