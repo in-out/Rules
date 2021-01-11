@@ -101,7 +101,7 @@ dns:
      #- tls://1.0.0.1:853
      #- tls://1.1.1.1:853
      #- tls://3d48ce.dns.nextdns.io
-     #- tls://dns.google:853
+     - tls://dns.google:853
      #- tls://jp.tiar.app:853
      #- tls://dns.quad9.net:853
      #- tls://dns.adguard.com:853
@@ -116,7 +116,7 @@ dns:
      #- https://dns.rubyfish.cn/dns-query
      - https://dns.cloudflare.com/dns-query
      #- https://dns.nextdns.io/3d48ce
-     - https://dns.google/dns-query
+     #- https://dns.google/dns-query
      #- https://doh.pub/dns-query
      #- https://odvr.nic.cz/doh
      #- https://public.dns.iij.jp/dns-query
