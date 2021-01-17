@@ -107,7 +107,7 @@ dns:
      #- tls://dns.quad9.net:853
      #- tls://dns.adguard.com:853
      #- tls://odvr.nic.cz
-     #- tls://public.dns.iij.jp
+     - tls://public.dns.iij.jp
      #- https://doh.dns.sb/dns-query
      #- https://doh.li/dns-query
      #- https://dns.quad9.net/dns-query
@@ -115,7 +115,7 @@ dns:
      #- https://dns.alidns.com/dns-query
      #- https://dns.233py.com/dns-query
      #- https://dns.rubyfish.cn/dns-query
-     - https://dns.cloudflare.com/dns-query
+     #- https://dns.cloudflare.com/dns-query
      #- https://dns.nextdns.io/3d48ce
      #- https://dns.google/dns-query
      #- https://doh.pub/dns-query
