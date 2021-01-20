@@ -13,4 +13,4 @@ DOMAIN,mtalk.google.com
 DOMAIN,translate.googleapis.com
 DOMAIN,update.googleapis.com
 ## Comic
-DOMAIN-SUFFIX,18comic.bet
+#DOMAIN-SUFFIX,18comic.bet
