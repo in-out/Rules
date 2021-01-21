@@ -101,7 +101,7 @@ dns:
      #- tls://dns.rubyfish.cn:853
      #- tls://1.0.0.1:853
      #- tls://1.1.1.1:853
-     - tls://3d48ce.dns.nextdns.io
+     #- tls://3d48ce.dns.nextdns.io
      - tls://dns.google:853
      #- tls://jp.tiar.app:853
      #- tls://dns.quad9.net:853
