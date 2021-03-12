@@ -70,7 +70,7 @@ dns:
      #- '*.lan'
      #- localhost.ptlogin2.qq.com
   nameserver:    
-     #- 119.29.29.29
+     - 119.29.29.29
      #- 223.5.5.5 # 阿里DNS
      #- 208.67.222.222 #OpenDNS
      #- 1.2.4.8
@@ -93,15 +93,16 @@ dns:
      #-tls://public.dns.iij.jp
      #-https://public.dns.iij.jp/dns-query
   fallback:
-     #- 8.8.8.8 # 谷歌DNS
-     #- 9.9.9.9
+     - 8.8.4.4 # 谷歌DNS
+     - 9.9.9.9
      #- 1.1.1.1 # Cloudflare DNS
      #- 208.67.222.222 #OpenDNS
      #- tls://dns.rubyfish.cn:853
      #- tls://1.0.0.1:853
      #- tls://1.1.1.1:853
      #- tls://3d48ce.dns.nextdns.io
-     #- tls://dns.google:853
+     - tls://dns.google:853
+     - tls://dot.pub:853
      #- tls://jp.tiar.app:853
      #- tls://dns.quad9.net:853
      #- tls://dns.adguard.com:853
