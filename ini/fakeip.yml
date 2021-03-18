@@ -75,12 +75,13 @@ dns:
      #- 223.5.5.5 # 阿里DNS
      #- 208.67.222.222 #OpenDNS
      #- 1.2.4.8
-     #- https://dns.alidns.com/dns-query
+     - https://dns.alidns.com/dns-query
      - https://doh.pub/dns-query
-     #- https://dns.nextdns.io/3d48ce
-     - https://dns.rubyfish.cn/dns-query
-     #- https://dns.adguard.com/dns-query
+     - https://doh.dns.sb/dns-query
      #- https://doh.360.cn/dns-query # 360 DoH DNS
+     #- https://dns.rubyfish.cn/dns-query
+     #- https://dns.nextdns.io/3d48ce
+     #- https://dns.adguard.com/dns-query
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
      #- 119.29.29.29 # 腾讯DNS
@@ -102,13 +103,12 @@ dns:
      #- tls://1.0.0.1:853
      #- tls://1.1.1.1:853
      #- tls://3d48ce.dns.nextdns.io
-     - tls://dns.google:853
+     #- tls://dns.google:853
      #- tls://jp.tiar.app:853
      #- tls://dns.quad9.net:853
      #- tls://dns.adguard.com:853
      #- tls://odvr.nic.cz
-     - tls://public.dns.iij.jp
-     #- https://doh.dns.sb/dns-query
+     #- tls://public.dns.iij.jp
      #- https://doh.li/dns-query
      #- https://dns.quad9.net/dns-query
      #- https://doh.xfinity.com/dns-query
@@ -117,10 +117,11 @@ dns:
      #- https://dns.rubyfish.cn/dns-query
      #- https://dns.cloudflare.com/dns-query
      #- https://dns.nextdns.io/3d48ce
-     #- https://dns.google/dns-query
+     - https://dns.google/dns-query
      #- https://doh.pub/dns-query
      #- https://odvr.nic.cz/doh
-     #- https://public.dns.iij.jp/dns-query
+     - https://public.dns.iij.jp/dns-query
+     - https://jp.tiar.app/dns-query
   fallback-filter:
      geoip: true # 默认
      #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
