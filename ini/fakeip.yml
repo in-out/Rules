@@ -70,6 +70,9 @@ dns:
      #- '*.lan'
      #- localhost.ptlogin2.qq.com
      #- 18comic.bet
+  default-nameserver:            # resolve dns nameserver host, should fill pure IP,aka Bootstrap DNS
+    - 119.29.29.29
+    - 8.8.4.4
   nameserver:    
      #- 119.29.29.29
      #- 223.5.5.5 # 阿里DNS
